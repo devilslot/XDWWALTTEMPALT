@@ -1,0 +1,253 @@
+body {
+    background-color: #222222;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #333333;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-size: 13px;
+}
+
+.nav-link {
+    color: #666666;
+    text-align: center;
+}
+
+a.nav-link:hover {
+    color: #E3A33D;
+}
+
+#navbarActive {
+    color: #E3A33D;
+}
+
+#logo {
+    color: #EEEEEE;
+}
+
+#back {
+    color: #E3A33D;
+}
+
+#logout {
+    color: #E3A33D;
+}
+
+.navbar-brand.logo {
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    flex: 1;
+}
+
+.container.content {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content.header {
+    background-color: #333333;
+    padding: 10px;
+    height: 100%;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+a.nav-link.active {
+    color: #E3A33D;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+a#pills-fill-tab.nav-link.active {
+    color: #E3A33D;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+a#pills-withdraw-tab.nav-link.active {
+    color: #E3A33D;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+a#pills-rocking-tab.nav-link.active {
+    color: #E3A33D;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+a#pills-bonus-tab.nav-link.active {
+    color: #E3A33D;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.btn.btn-outline-secondary.btn-sm {
+    border-radius: 50px;
+    font-size: 11px;
+}
+
+.btn.btn-dark.btn-lg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.btn.btn-primary.btn-lg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 50px;
+    border-radius: 50px;
+    background-color: #0f587d;
+    font-size: 20px;
+}
+
+.badge {
+    color: #E3A33D;
+    background-color: #efefef;
+}
+
+section.wallet {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px
+}
+
+section.wallet .wallet-circle {
+    width: 185px;
+    height: 185px;
+    border: 2px solid rgba(247, 244, 242, .8705882352941177);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative
+}
+
+section.wallet .wallet-circle .swiper-container {
+    width: 185px !important
+}
+
+section.wallet .wallet-circle .swiper-slide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 185px !important
+}
+
+section.wallet .wallet-circle .wallet-money {
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 8px;
+    text-decoration: none;
+    color: #fff
+}
+
+section.wallet .wallet-circle small {
+    font-size: 11px;
+    color: #fff
+}
+
+section.wallet a.btn-bonus {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    line-height: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: red;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, .16);
+    position: absolute;
+    margin-left: 60px
+}
+
+section.wallet a.btn-refresh {
+    height: 29px;
+    width: 29px;
+    display: flex;
+    top: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    line-height: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #165f82;
+    background: #fff;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 50px;
+}
+
+section.wallet .swiper-pagination {
+    margin-top: 110px
+}
+
+section.wallet .swiper-pagination-bullet {
+    margin: 1.5px;
+    background: 0 0;
+    border: 1px solid #fff;
+    opacity: 1;
+    width: 6px;
+    height: 6px
+}
+
+section.wallet .swiper-pagination-bullet-active {
+    background: #fff
+}
+
+section.main-menu {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px
+}
+
+.menu {
+    color: #efefef;
+}
+
+.menu:hover {
+    color: #E3A33D;
+}
